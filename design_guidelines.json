@@ -1,0 +1,165 @@
+{
+  "identity": {
+    "name": "E1: The Anti-AI Designer",
+    "tone": "Luxury, Cinematic, Exclusive, Timeless",
+    "archetype": "Jewel & Luxury (Archetype 5)",
+    "core_principles": [
+      "Fusion over Imitation",
+      "Emotion First",
+      "Content is King",
+      "Zoom In (Detail Oriented)",
+      "Negative Space is Luxury"
+    ]
+  },
+  "typography": {
+    "fonts": {
+      "heading": {
+        "family": "Playfair Display, serif",
+        "weights": ["400", "600", "700"],
+        "usage": "Hero titles, Section headers, Product names"
+      },
+      "body": {
+        "family": "Manrope, sans-serif",
+        "weights": ["300", "400", "500", "600"],
+        "usage": "Paragraphs, UI labels, Navigation, Prices"
+      },
+      "accent": {
+        "family": "Cormorant Garamond, serif",
+        "weights": ["400", "500"],
+        "usage": "Italicized quotes, 'Since 1990' tags, subtle captions"
+      }
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl tracking-tight leading-none font-heading",
+      "h2": "text-4xl md:text-5xl tracking-tight font-heading",
+      "h3": "text-2xl md:text-3xl font-heading",
+      "body_lg": "text-lg md:text-xl leading-relaxed font-body",
+      "body_base": "text-base leading-relaxed font-body",
+      "caption": "text-sm tracking-widest uppercase font-body"
+    }
+  },
+  "colors": {
+    "theme": "dark",
+    "palette": {
+      "background": {
+        "primary": "#0A0A0A",
+        "secondary": "#121212",
+        "tertiary": "#1A1A1A"
+      },
+      "text": {
+        "primary": "#F5F5F0",
+        "secondary": "#A1A1AA",
+        "muted": "#52525B",
+        "inverse": "#0A0A0A"
+      },
+      "accent": {
+        "gold": "#D4AF37",
+        "gold_dim": "#A68A2D",
+        "cream": "#F9F9F5"
+      },
+      "border": {
+        "subtle": "rgba(255, 255, 255, 0.1)",
+        "strong": "rgba(212, 175, 55, 0.3)"
+      },
+      "status": {
+        "success": "#10B981",
+        "error": "#EF4444",
+        "warning": "#F59E0B"
+      }
+    },
+    "gradients": {
+      "gold_sheen": "linear-gradient(135deg, #D4AF37 0%, #F9F9F5 50%, #A68A2D 100%)",
+      "dark_fade": "linear-gradient(to bottom, rgba(10,10,10,0) 0%, #0A0A0A 100%)"
+    }
+  },
+  "layout": {
+    "spacing": {
+      "container_padding": "px-6 md:px-12 lg:px-24",
+      "section_gap": "py-24 md:py-32",
+      "element_gap": "gap-6 md:gap-12"
+    },
+    "grids": {
+      "bento_marketing": "grid grid-cols-1 md:grid-cols-12 gap-6",
+      "product_catalog": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-12"
+    },
+    "border_radius": {
+      "default": "rounded-none",
+      "card": "rounded-sm",
+      "button": "rounded-full"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#D4AF37] text-[#0A0A0A] hover:bg-[#F9F9F5] transition-all duration-300 font-medium px-8 py-3 rounded-full uppercase tracking-wider text-sm",
+      "secondary": "bg-transparent border border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-[#0A0A0A] transition-all duration-300 px-8 py-3 rounded-full uppercase tracking-wider text-sm",
+      "ghost": "text-[#F5F5F0] hover:text-[#D4AF37] transition-colors uppercase tracking-widest text-xs"
+    },
+    "cards": {
+      "product": "group relative bg-transparent border-none overflow-hidden",
+      "feature": "bg-[#121212] border border-white/5 p-8 hover:border-[#D4AF37]/30 transition-colors duration-500"
+    },
+    "inputs": {
+      "default": "bg-transparent border-b border-white/20 focus:border-[#D4AF37] rounded-none px-0 py-4 text-[#F5F5F0] placeholder:text-white/30 focus:ring-0 transition-colors"
+    }
+  },
+  "motion": {
+    "transitions": {
+      "default": "transition-all duration-300 ease-out",
+      "slow": "transition-all duration-700 ease-out"
+    },
+    "animations": {
+      "fade_in_up": "animate-in fade-in slide-in-from-bottom-8 duration-700",
+      "hover_lift": "hover:-translate-y-1 transition-transform duration-300"
+    }
+  },
+  "images": {
+    "hero": {
+      "url": "https://images.unsplash.com/photo-1653868250562-576619bb2ad6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBsZWF0aGVyJTIwb3hmb3JkJTIwc2hvZXMlMjBtZW4lMjBibGFjayUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzY5NTgxMjk3fDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Artistic composition of luxury oxford shoes on vintage newspaper",
+      "category": "hero_main"
+    },
+    "men_collection": {
+      "url": "https://images.unsplash.com/photo-1587521343787-d91adb811113?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBsZWF0aGVyJTIwb3hmb3JkJTIwc2hvZXMlMjBtZW4lMjBibGFjayUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzY5NTgxMjk3fDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Sleek black leather oxford shoe detail",
+      "category": "category_men"
+    },
+    "women_collection": {
+      "url": "https://images.unsplash.com/photo-1704775989614-8435994e4e97?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MTJ8MHwxfHNlYXJjaHwyfHxlbGVnYW50JTIwaGlnaCUyMGhlZWxzJTIwd29tZW4lMjBmYXNoaW9uJTIwZWRpdG9yaWFsfGVufDB8fHx8MTc2OTU4MTI5OXww&ixlib=rb-4.1.0&q=85",
+      "alt": "Editorial shot of woman in blue dress with elegant heels",
+      "category": "category_women"
+    },
+    "sports_collection": {
+      "url": "https://images.unsplash.com/photo-1591781997999-a600e7a43f27?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwyfHxwcmVtaXVtJTIwcnVubmluZyUyMHNob2VzJTIwYWVzdGhldGljfGVufDB8fHx8MTc2OTU4MTI5OXww&ixlib=rb-4.1.0&q=85",
+      "alt": "Clean white athletic shoe on road surface",
+      "category": "category_sports"
+    },
+    "featured_product_1": {
+      "url": "https://images.unsplash.com/photo-1559334418-672d5a48531b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MTJ8MHwxfHNlYXJjaHw0fHxlbGVnYW50JTIwaGlnaCUyMGhlZWxzJTIwd29tZW4lMjBmYXNoaW9uJTIwZWRpdG9yaWFsfGVufDB8fHx8MTc2OTU4MTI5OXww&ixlib=rb-4.1.0&q=85",
+      "alt": "Black leather heeled sandals",
+      "category": "product_detail"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-black/40 border border-white/10",
+    "tracing_beam": "relative after:absolute after:inset-0 after:border after:border-[#D4AF37] after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-500",
+    "noise_texture": "bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 mix-blend-overlay pointer-events-none fixed inset-0 z-50"
+  },
+  "instructions_to_main_agent": [
+    "1. SETUP: Install 'lucide-react', 'framer-motion', 'clsx', 'tailwind-merge' immediately.",
+    "2. THEME: Configure 'tailwind.config.js' to use the specific colors defined in this JSON. Extend the theme, do not overwrite completely.",
+    "3. FONTS: Import 'Playfair Display' and 'Manrope' from Google Fonts in 'index.css'.",
+    "4. LAYOUT: Use the 'Bento Marketing' grid for the Landing Page. Do not use simple rows.",
+    "5. COMPONENTS: Customize Shadcn components to remove the 'default Vercel look'. Use the 'buttons.primary' and 'inputs.default' styles defined here.",
+    "6. IMAGES: Use the provided image URLs. Do not use placeholders.",
+    "7. MOTION: Apply 'fade_in_up' to all major sections on scroll.",
+    "8. NAVIGATION: Create a sticky glassmorphic header that reveals on scroll-up.",
+    "9. TESTING: Add 'data-testid' to all interactive elements (buttons, inputs, links)."
+  ],
+  "universal_guidelines": [
+    "Avoid generic centered layouts.",
+    "Use 2-3x more spacing than typical designs.",
+    "Dark colors must be rich (tinted), not pure black (except for the specific #0A0A0A background).",
+    "Never use 'Inter' for headings.",
+    "Ensure all text meets APCA contrast standards against the dark background."
+  ]
+}
